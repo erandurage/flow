@@ -96,3 +96,14 @@ All commands should follow below syntax
 > ##### Usage
 > * `vegit ignore <files to ignore>`
 
+#
+> ### copy
+> * To copy files from another branch to current branch. However, if you have any unstaged code, first you have to either stage, commit, remove (manually) or ignore them before proceeding. 
+> ##### Usage
+> * `vegit copy <files to copy>`
+
+#
+> ### remove
+> * To remove files from filesysterm and git. This command does not perform `commit` command. Thus, it up to you to commit the removal.
+> ##### Usage
+> * `vegit remove <files to copy>`
