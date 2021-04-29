@@ -7,7 +7,7 @@ All commands should follow below syntax
 
 > vegit `<command>` [optional arguments]
 
-## Available commands list
+## Everyone's commands
 #
 > ### init
 > * To initialize a git repository with vegit.
@@ -56,6 +56,7 @@ All commands should follow below syntax
 > ##### Usage
 > * `vegit switch <target_branch>`
 
+## Vendor Integrator Commands
 #
 > ### vendor
 > * Perform various vendor specific operations as listed below
@@ -67,6 +68,7 @@ All commands should follow below syntax
 > ###### get
 >  `vegit vendor get <release or branch>`
 
+## Vegit Admin Commands
 #
 > ### inspect
 > * Lists down available branches to merge into the branch you are running on. Only works on `dev`, `test`, `master` branches. A readonly command. 
@@ -90,7 +92,7 @@ All commands should follow below syntax
 > 
 > `tag_text` can only contain alphanumeric charecters, - and _ only. 
 
-## Some Utility Commands
+## Some other useful commands
 #
 > ### ignore
 > * If you need to ignore a list of file from tracking, you may use this command. There is no any un-ignore command, unless you use a git command to do it. 
