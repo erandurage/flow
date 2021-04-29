@@ -21,13 +21,13 @@ All commands should follow below syntax
 > * `vegit start <change_name>`
 
 #
-> ### add
+> ### stage
 > * The same symantics of git add command. The command is used to stage your code.
 > ##### Usage
 > * `vegit add <files to add>`
 
 #
-> ### reset
+> ### unstage
 > * The same symantics of git reset command. To command is used to unstage your code in staging area. This command only unstage your code and put them back on your unstaged code.
 > ##### Usage
 > * `vegit reset <files to add>`
@@ -49,6 +49,12 @@ All commands should follow below syntax
 > * Deletes a branch. Only works on `feature*` or `vendor_merging` branches. No effect on `vendor*`, `dev`, `test`, `master` branches. Delete only your local branch. 
 > ##### Usage
 > * `vegit delete <branch name>`
+
+#
+> ### switch
+> * Switches from branch to branch. However, if you have any unstaged code, first you have to either stage, commit, remove (manually) or ignore them before proceeding. 
+> ##### Usage
+> * `vegit switch <target_branch>`
 
 #
 > ### vendor
@@ -83,3 +89,10 @@ All commands should follow below syntax
 > * `vegit tag <dev|test|master> <tag_text>`
 > 
 > `tag_text` can only contain alphanumeric charecters, - and _ only. 
+
+#
+> ### ignore
+> * If you need to ignore a list of file from tracking, you may use this command. There is no any un-ignore command, unless you use a git command to do it. 
+> ##### Usage
+> * `vegit ignore <files to ignore>`
+
