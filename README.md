@@ -40,7 +40,7 @@ All commands should follow below syntax
 
 #
 > ### publish
-> * Pushes all your committed changes to your central repository. 
+> * Pushes all your committed changes to your central repository. _(Experimental) Creates pull requests if needed._
 > ##### Usage
 > * `vegit publish`
 
