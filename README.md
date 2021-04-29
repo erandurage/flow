@@ -8,6 +8,13 @@ All commands should follow below syntax
 > vegit `<command>` [optional arguments]
 
 ## Everyone's commands
+
+#
+> ### status
+> * To see the current status.
+> ##### Usage
+> * `vegit status`
+
 #
 > ### init
 > * To initialize a git repository with vegit.
