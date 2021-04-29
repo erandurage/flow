@@ -90,6 +90,7 @@ All commands should follow below syntax
 > 
 > `tag_text` can only contain alphanumeric charecters, - and _ only. 
 
+## Some Utility Commands
 #
 > ### ignore
 > * If you need to ignore a list of file from tracking, you may use this command. There is no any un-ignore command, unless you use a git command to do it. 
@@ -107,3 +108,9 @@ All commands should follow below syntax
 > * To remove files from filesysterm and git. This command does not perform `commit` command. Thus, it up to you to commit the removal.
 > ##### Usage
 > * `vegit remove <files to copy>`
+
+#
+> ### rename
+> * To rename files from filesysterm and git. This command does not perform `commit` command. Thus, it up to you to commit the renaming.
+> ##### Usage
+> * `vegit rename <old_name> <new name>`
